@@ -1,0 +1,388 @@
+IMG
+{
+	border: none;
+}
+
+.datePicker
+{
+border: 1px solid black;
+width: 11em;
+height: 14em;
+padding: 0px 10px;
+margin: 10px;
+}
+
+.datePickerTable
+{
+border-collapse: separate;
+border-spacing: 10px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.datePickerTable TR TD
+{
+	padding: 5px;
+	vertical-align: top;
+	background: #dddddd; 
+}
+
+.datePickerTable TR TD TABLE TR TD
+{
+	padding: 0px;
+}
+
+A.dateLink
+{
+	background: #dddddd;
+	display: block;
+	padding: 3px;
+}
+
+A.dateLink:hover
+{
+	background: #ffffff;
+	text-decoration: none;
+}
+
+
+A.dateLinkSelected
+{
+	background: #9191ff;
+}
+
+A.dateLinkSelected:hover
+{
+	background: #b3b3ff;
+}
+
+#editBooking
+{
+	position: absolute;
+	z-index: 2;
+}
+
+#editBooking fieldSet, #editBooking legend
+{
+	border: 1px solid black;
+	background: #ffffff;
+}
+
+#editBooking legend
+{
+	padding: 3px;
+	background: #eeeeee;
+}
+
+#editBooking fieldset
+{
+	padding: 5px 15px;
+}
+
+A
+{
+	text-decoration: none;
+	color: #0000bb;
+}
+
+A:hover
+{
+	text-decoration: underline;
+}
+
+.tableContainer
+{
+	position: absolute;
+}
+
+.weekSelectNext
+{
+	float: right;
+}
+
+.weekSelectPrevious
+{
+	float: left;
+}
+
+.weekSelectCurrent
+{
+margin-left: auto;
+margin-right: auto;
+position: relative;
+width: 100px;
+}
+
+.bookingTable
+{
+	width: 810px;
+}
+
+.bookingTable TR TD A
+{
+	display: block;
+	height: 20px;
+	width: 78px;
+	padding: 8px;
+	color: #000000;
+}
+
+.bookingTable A:hover
+{
+	text-decoration: none;
+}
+
+.bookingTable TR TH, #userAdminTable TR TH
+{
+	display: table-cell;
+/*	padding: 8px;*/
+}
+
+#userAdminTable TR TD
+{
+/*	padding:2px;*/
+}
+
+fieldset#admin
+{
+	min-height: 100px;
+	width: 300px;
+}
+
+#userAdminTable .adminActions
+{
+	border: 1px solid black;
+}
+
+.bookingTable TR TD.slotTime, .bookingTable TR TH, #userAdminTable TR TH
+{
+	background: #999999;
+	padding: 8px;
+}
+
+.bookingTable TR TD.slot
+{
+background: #33cc00;
+}
+.bookingTable TR TD.slot:hover 
+{
+background: #339900;
+}
+
+.bookingTable TR TD.slotTaken
+{
+background: #ff3333;
+}
+.bookingTable TR TD.slotTaken:hover
+{
+background: #990000;
+}
+.bookingTable TR:hover TD.slotTime
+{
+background: #666666;
+}
+
+.login legend, form.adminForm legend
+{
+	border: 1px solid #000000;
+	background: #cccccc;
+	padding: 3px;
+}
+
+.login fieldset
+{
+	padding: 10px 30px;
+	margin: 30px;
+	background: #dddddd;
+	width: 250px;
+	height: 150px;
+	float: left;
+}
+
+.login label
+{
+	float: left;
+	width: 70px;
+	text-align: right;
+}
+
+#error, #message
+{
+	position: absolute;
+	top: 90px;
+	left: 20px;
+	padding: 5px;
+	background: #ffffff;
+}
+
+#error
+{
+	border: 1px solid red;
+}
+
+#message
+{
+	border: 1px solid green;
+}
+
+form.adminForm label {
+  display: inline-block;
+}
+
+form.adminForm fieldset
+{
+	padding: 20px;
+}
+
+form.adminForm fieldset ol {
+  margin: 0;
+  padding: 0;
+}
+form.adminForm fieldset li {
+  list-style: none;
+  padding: 2px;
+  margin: 0px;
+	min-height: 28px;
+}
+form.adminForm fieldset span {
+  border: none;
+  margin: 0px 0 0;
+}
+
+form.adminForm fieldset select{
+}
+
+form.adminForm fieldset span label {
+  width: auto;
+}
+form.adminForm label {
+  width: 120px; /* Width of labels */
+}
+form.adminForm fieldset fieldset label {
+  margin-left: 120px; /* Width plus 3 (html space) */
+}
+
+
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+h1 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div#main {
+	background: #eeeeee;
+	border: 1px solid #dddddd;
+	width: 850px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	position:relative;
+	}
+
+div#header {
+	background: #dddddd;
+	height: 50px;
+	position: relative;
+	padding: 30px 20px;
+	line-height: 30px;
+	}
+
+div#header div#title
+{
+	font-size: 20px;
+	padding-left: 20px;
+}
+div#header div#userStatus
+{
+	float: right;
+	font-size: 14px;
+	top: -10px;
+	position: relative;
+}
+
+div#header
+{
+	font-size: 40px;
+}
+
+div#menu {
+	padding: 10px;
+	position: absolute;
+	bottom: 0;
+	margin-left: 8px;
+	}
+	
+div#menu_items {
+	padding: 0;
+	list-style: none;
+	
+	}
+
+ul#menu_items li {
+	display:inline;		
+	}
+	
+ul#menu_items li a {
+	padding: 5px 9px 5px 9px;
+	margin-left: 20px;
+	text-decoration: none;
+	color:#000000;
+	background:#B1FA95;
+	border: 1px solid #84F852;
+	}
+	
+ul#menu_items li a.here {
+	padding: 5px 9px 5px 9px;
+	margin-left: 20px;
+	text-decoration: none;
+	color:#000000;
+	background: #8BF963;
+	border: 1px solid #5FC437;
+	}
+	
+ul#menu_items li a:hover {
+	background: #8BF963;
+	border: 1px solid #5FC437;
+	}
+	
+div#content {
+	padding: 10px 20px 70px 20px;
+	min-height:400px;
+
+	}
+	
+div#content ul {
+	list-style: none;
+
+	}
+	
+div#content ul li:before{
+	content: "\00BB \0020";
+	}
+	
+
+div#footer {
+	position: absolute;
+	bottom: 0;
+	right: 0px;
+	display: block;
+	text-align:center;
+	padding: 10px 20px; 
+	margin: 0px; 
+	background: #dddddd;
+	z-index: 0;
+	}
+
